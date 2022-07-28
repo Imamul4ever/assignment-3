@@ -1,0 +1,25 @@
+
+  .disply_flex{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-caption{
+    top: 40%;
+}
+
+  
+
+@media only screen and (max-width: 700px) {
+    .disply_flex{
+        display: inline-block;
+        justify-content: center;
+    }
+    .disply_flex img{
+      width: 100%;
+      object-fit: cover;
+    }
+    .carousel-caption{
+        top: 0%;
+    }
+  }
